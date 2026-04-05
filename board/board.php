@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>전체 계시글</title>
+    <title>전체 게시글</title>
 </head>
 <?php
 $board_db = new PDO("mysql:host=localhost;dbname=board_db", "root", "12345678");
@@ -24,7 +24,7 @@ $result = $board_db->query($search_quary);
 ?>
 
 <body>
-    <label>전체 계시글</label><br><a href="../index.php">돌아가기</a>
+    <label>전체 게시글</label><br><a href="../index.php">돌아가기</a>
     <table>
         <?php
         while($row = $result->fetch()){

@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>기원83계시판</title>
+    <title>게시판</title>
 </head>
 <body>
-    <h2>아주 엄청난 계시판(예정)</h2>
+    <h2> 게시판 </h2>
         <?php
         session_start();
 
@@ -42,7 +42,7 @@
         // var_dump($_SESSION);
         ?>
     <br><br>
-    <a href="./board/board.php">계시글 전체보기</a>
+    <a href="./board/board.php">게시글 전체보기</a>
     <br>
         <?php
         $board_db = new PDO("mysql:host=localhost;dbname=board_db", "root", "12345678");

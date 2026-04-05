@@ -54,11 +54,11 @@ if($role != 'admin'){
     ?>
 </table>
 <br><br>
-<h2>계시판</h2>
+<h2>게시판</h2>
 
 <table>
     <tr>
-        <th>계시글 id</th>
+        <th>게시글 id</th>
         <th>제목</th>
         <th>id</th>
         <th>유저 이름</th>
@@ -107,7 +107,7 @@ if($role != 'admin'){
         <th>댓글 id</th>
         <th>내용</th>
         <th>id</th>
-        <th>계시글</th>
+        <th>게시글</th>
         <th>id</th>
         <th>유저</th>
         <th>생성일</th>
