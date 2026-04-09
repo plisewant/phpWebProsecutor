@@ -1,6 +1,5 @@
 <?php
 $post_id = $_POST['post_id'];
-// var_dump($post_id);
 
 $board_db = new PDO("mysql:host=localhost;dbname=board_db", "root", "12345678");
 

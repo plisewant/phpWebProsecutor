@@ -2,10 +2,8 @@
 session_start();
 $title = $_POST['title'];
 $content = $_POST['content'];
-// $name = $_SESSION['name'];
 $user_id = $_SESSION['id'];
-// var_dump($title, $content);
-// var_dump($name, $user_id);
+
 if(!($title && $content && $user_id)){
     header("Location: ./write.php?empty");
     exit;

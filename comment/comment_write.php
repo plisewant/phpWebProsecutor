@@ -7,7 +7,6 @@ if(isset($_SESSION['id'])){
 }
 $post_id = $_POST['post_id'];
 $comment = $_POST['comment'];
-// var_dump($user_id, $post_id, $comment);
 
 if(!$comment){
     header("Location: ../board/view.php?id=$post_id");

@@ -26,7 +26,6 @@ WHERE posts.id = '$post_id'
 $result = $board_db->query($posts_query);
 $row = $result->fetch();
 
-// var_dump($row);
 $view_query = "
 UPDATE posts
 SET views = views + 1
@@ -53,7 +52,6 @@ $board_db->query($view_query);
 
 <hr>
 
-<!-- <h3>내용</h3> -->
 
 <div>
 <?= nl2br($row['content']) ?>

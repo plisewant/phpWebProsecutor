@@ -3,7 +3,6 @@ $name = $_POST['name'];
 $password = $_POST['password'];
 $password_check = $_POST['password-check'];
 if(!($name && $password && $password_check)){
-    // echo "asdfasdf";
     header("Location: ./register.php?empty");
     exit;
 }
@@ -12,7 +11,6 @@ if($password != $password_check){
     header("Location: ./register.php?pwnotsame");
     exit;
 }
-// echo "$name, $password, $password_check";
 
 $board_db = new PDO("mysql:host=localhost;dbname=board_db", "root", "12345678");
 

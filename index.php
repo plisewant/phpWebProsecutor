@@ -27,7 +27,6 @@
             <a href="./board/write.php">글 작성</a>
 
             <?php
-            // echo "있음";
             
         }
         if(!$_SESSION){

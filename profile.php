@@ -9,7 +9,6 @@
     session_start();
     $board_db = new PDO("mysql:host=localhost;dbname=board_db", "root", "12345678");
 
-    // var_dump($_SESSION['name']);
     $name = $_SESSION['name'];
 
     $info_query = "
