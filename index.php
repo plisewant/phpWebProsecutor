@@ -36,9 +36,7 @@
             <a href="./login/register.php">회원가입</a>
             
             <?php
-            // echo "없음";
         }
-        // var_dump($_SESSION);
         ?>
     <br><br>
     <a href="./board/board.php">게시글 전체보기</a>
